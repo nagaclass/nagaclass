@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link href="/">
           <a>NG</a>
         </Link>
-        <div>Blogs</div>
+        <h1 className="text-3xl font-bold">Blog</h1>
       </nav>
     </div>
   );
