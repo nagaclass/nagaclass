@@ -8,9 +8,14 @@ export default function Home() {
       keywords={"Naga Class, Software, Front End, Backend"}
       description={"Naga Class for Software Development"}
     >
-      <Link href="https://www.nagaclass.com">
-        <a>www.nagaclass.com</a>
-      </Link>
+      <code>
+        <Link href="https://www.nagaclass.com">
+          <a>www.nagaclass.com</a>
+        </Link>
+      </code>
+      <br />
+      <br />
+      <code>react-redux</code>
     </Layout>
   );
 }
