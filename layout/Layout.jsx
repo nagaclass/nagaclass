@@ -8,7 +8,7 @@ const Layout = ({ title, description, keywords, children }) => {
         <meta name="keywords" content={keywords} />
         <title>{title || "Naga Class for Software Development"}</title>
       </Head>
-      <div className="container">{children}</div>
+      <div className="container ">{children}</div>
     </>
   );
 };
